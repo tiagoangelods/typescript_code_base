@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { booleanValue, numberValue, stringValue } from "./basic-types";
+import { arrayValue, booleanValue, numberValue, stringValue } from "./basic-types";
 describe('Testing Basic Types', () => {
   describe('Testing primitive types', () => {
     test("const stringValue should be a String type", () => {
@@ -19,6 +19,14 @@ describe('Testing Basic Types', () => {
     });
     test("const booleanValue should be equal to true", () => {
       expect(booleanValue).toBe(true);
+    });
+  });
+  describe("Testing array, object and functions", () => {
+    test("const arrayValues should be an object type", () => {
+      expect(arrayValue).toBeTypeOf("object");
+    });
+    test("const arrayValue should be a length equals to 1", () => {
+      expect(arrayValue).toHaveLength(1);
     });
   });
 });
