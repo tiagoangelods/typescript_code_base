@@ -36,7 +36,7 @@ describe("Testing Expressions", () => {
     test("2 % 2 should be equal to 0", () => {
       expect(modXbyY(2,2)).toBe(0);
     });
-    test("2^3 should be equal to 8"), () => {
+    test("2 ^ 3 should be equal to 8"), () => {
       expect(exponentialXtoY(2,3)).toBe(8);
     }
   });
