@@ -1,0 +1,17 @@
+export const addXtoY = (x: number, y: number): number => x + y;
+export const substractXfromY = (x: number, y: number): number => x - y;
+export const multiplicateXandY = (x: number, y: number): number => x * y;
+export const divideXbyY = (x: number, y: number): number => x / y;
+export const modXbyY = (x: number, y: number): number => x % y;
+export const exponentialXtoY = (x: number, y: number): number => x ** y;
+export const expressionXAndY = (x: boolean, y: boolean): boolean => x && y;
+export const expressionXOrY = (x: boolean, y: boolean): boolean => x || y;
+export const expressionNotX = (x: boolean): boolean => !x;
+export const expressionXGreaterThanY = (x: number, y: number): boolean => x > y;
+export const expressionXGreaterThanOrEqualsToY = (x: number, y: number): boolean => x >= y;
+export const expressionXLessThanY = (x: number, y: number): boolean => x < y;
+export const expressionXLessThanYOrEqualsTo = (x: number, y: number): boolean => x <= y;
+export const expressionXEqualsToYAvoidTypeComparison = (x: number, y: any): boolean => x == y;
+export const expressionXEqualsToYWithTypeComparison = (x: number, y: number): boolean => x === y;
+export const expressionXNotEqualsToYAvoidTypeComparison = (x: number, y: any): boolean => x != y;
+export const expressionXNotEqualsToYWithTypeComparison = (x: number, y: number): boolean => x !== y;
