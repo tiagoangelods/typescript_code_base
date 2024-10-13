@@ -5,4 +5,4 @@ export const booleanValue: boolean = true;
 // array, object and functions
 export const arrayValue: Array<any> = new Array(1);
 export const objectValue: Object = Object.create({});
-export const functionValue: Function = (): void => {};
+export const functionValue: Function = (): number => {return 1;};

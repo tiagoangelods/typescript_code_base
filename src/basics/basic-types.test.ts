@@ -44,6 +44,7 @@ describe('Testing Basic Types', () => {
     });
     test("const functionValue should be an function type", () => {
       expect(functionValue).toBeTypeOf("function");
+      expect(functionValue()).toBe(1);
     });
     
   });
